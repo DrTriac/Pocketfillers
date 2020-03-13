@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Pocketfillers</title>
+</head>
+<body onload="togglefunction_squirrel(), togglefunction_penguin(), togglefunction_owl(), togglefunction_fox()">
+
+
+    <div class="head">
+        <h1>Pocketfillers</h1>
+        <p>never run out again. ever.</p>
+    </div>
+    <div class="navbar_container">
+        <div class="navitem" onclick="location.href='#';" style="cursor: pointer;"><p>Home</p></div>
+        <div class="navitem" onclick="location.href='Shop.html';" style="cursor: pointer;"><p>Shop</p></div>
+        <div class="navitem" onclick="location.href='#';" style="cursor: pointer;"><p>About</p></div>
+        
+            <div class="navitem" onclick="location.href='#';" style="cursor: pointer;"><p>Profile</p></div>
+        
+
+    </div>
+    <div class="banner">
+        
+        <div class="textblock">
+            <h2>Our mission:</h2>
+            <p>Here at Pocketfillers we make it our daily mission to make sure you always have access to the best smoking supplies. From the most basic must-have items like grinders papers and tips, to the most exclusive limited edition supplies. We get those items you love the most, delivered to you whenever you want. <br> want to find out more <a href="#">here</a></p>
+        </div>
+    </div>
+    <div id="subtext">
+        <h3>Choose a subscribtion:</h3>
+        <p><i>not sure what to pick? find out more about the subscriptions by just kicking on them</i></p>
+    </div>
+    <div class="flexcontainer">
+        <div class="subscriptiondiv" onclick="togglefunction_squirrel();" style="cursor: pointer;">
+            <h2>Squirell</h2>
+            <img src="images/icons/squirrel.png" alt="">
+            <p><i>Never smoked before? order a Squirell kit and recieve everything you need to get started and more!</i></p>
+            <div class="buttondiv" onclick="" style="cursor: pointer;">Learn More</div>
+        </div>
+
+        <div class="subscriptiondiv" onclick="togglefunction_penguin();" style="cursor: pointer;">
+            <h2>Penguin</h2>
+            <img src="images/icons/penguin.png" alt="">
+            <p><i>occasional smoker looking for long lasting supplies</i></p>
+            <div class="buttondiv" onclick="location.href='#';" style="cursor: pointer;">Learn More</div>
+        </div>
+        <div class="subscriptiondiv" onclick="togglefunction_owl();" style="cursor: pointer;">
+            <h2>Owl</h2>
+            <img src="images/icons/owl.png" alt="">
+            <p><i>regular smoker looking for old classics and something new</i></p>
+            <div class="buttondiv" onclick="location.href='#';" style="cursor: pointer;">Learn More</div>
+        </div>
+        <div class="subscriptiondiv" onclick="togglefunction_fox()" style="cursor: pointer;">
+            <h2>Fox</h2>
+            <img src="images/icons/fox.png" alt="">
+            <p><i>enthousiast! looking for exclusive <br> papers and glass</i></p>
+            <div class="buttondiv" onclick="location.href='#';" style="cursor: pointer;">Learn More</div>
+        </div>
+    </div>
+
+    <div id="subscriptionInfo_squirrel">
+        <div id="sqpic">
+            <img src="images/icons/squirrel_256.png" alt="">
+        </div>
+        <div id="sqtext">
+            <h3>squirrel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora temporibus animi quis possimus quas tempore excepturi qui hic dolores enim nihil, ex iste veritatis vel corporis ratione est. Hic, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quis enim quaerat quos velit! Commodi id quas consequuntur ducimus tenetur cum voluptates non laboriosam, earum velit voluptas possimus, ea quasi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum obcaecati repellat animi vel, ducimus provident, porro non nihil cupiditate sint recusandae fuga dolor praesentium. Porro delectus numquam rem deserunt veritatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, quam. Fugiat accusantium dolore provident impedit itaque voluptates? Dicta odit nisi quos asperiores laborum molestiae, enim consequuntur nulla! Sint, id saepe! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque enim harum deleniti assumenda accusamus consequuntur nostrum aliquid quod eligendi. Neque vel aperiam accusamus possimus. Tempora libero voluptas repellendus illum fugit?</p>
+        </div>
+    </div>
+
+    <div id="subscriptionInfo_penguin">
+        <div id="penpic">
+            <img src="images/icons/penguin256.png" alt="">
+        </div>
+        <div id="pentext">
+            <h3>Penguin</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora temporibus animi quis possimus quas tempore excepturi qui hic dolores enim nihil, ex iste veritatis vel corporis ratione est. Hic, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quis enim quaerat quos velit! Commodi id quas consequuntur ducimus tenetur cum voluptates non laboriosam, earum velit voluptas possimus, ea quasi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum obcaecati repellat animi vel, ducimus provident, porro non nihil cupiditate sint recusandae fuga dolor praesentium. Porro delectus numquam rem deserunt veritatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, quam. Fugiat accusantium dolore provident impedit itaque voluptates? Dicta odit nisi quos asperiores laborum molestiae, enim consequuntur nulla! Sint, id saepe! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque enim harum deleniti assumenda accusamus consequuntur nostrum aliquid quod eligendi. Neque vel aperiam accusamus possimus. Tempora libero voluptas repellendus illum fugit?</p>
+        </div>
+    </div>
+
+    <div id="subscriptionInfo_owl">
+        <div id="owlpic">
+            <img src="images/icons/owll256.png" alt="">
+        </div>
+        <div id="owltext">
+            <h3>Owl</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora temporibus animi quis possimus quas tempore excepturi qui hic dolores enim nihil, ex iste veritatis vel corporis ratione est. Hic, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quis enim quaerat quos velit! Commodi id quas consequuntur ducimus tenetur cum voluptates non laboriosam, earum velit voluptas possimus, ea quasi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum obcaecati repellat animi vel, ducimus provident, porro non nihil cupiditate sint recusandae fuga dolor praesentium. Porro delectus numquam rem deserunt veritatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, quam. Fugiat accusantium dolore provident impedit itaque voluptates? Dicta odit nisi quos asperiores laborum molestiae, enim consequuntur nulla! Sint, id saepe! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque enim harum deleniti assumenda accusamus consequuntur nostrum aliquid quod eligendi. Neque vel aperiam accusamus possimus. Tempora libero voluptas repellendus illum fugit?</p>
+        </div>
+    </div>
+    <div id="subscriptionInfo_fox">
+        <div id="foxpic">
+            <img src="images/icons/fox256.png" alt="">
+        </div>
+        <div id="foxtext">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora temporibus animi quis possimus quas tempore excepturi qui hic dolores enim nihil, ex iste veritatis vel corporis ratione est. Hic, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quis enim quaerat quos velit! Commodi id quas consequuntur ducimus tenetur cum voluptates non laboriosam, earum velit voluptas possimus, ea quasi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum obcaecati repellat animi vel, ducimus provident, porro non nihil cupiditate sint recusandae fuga dolor praesentium. Porro delectus numquam rem deserunt veritatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, quam. Fugiat accusantium dolore provident impedit itaque voluptates? Dicta odit nisi quos asperiores laborum molestiae, enim consequuntur nulla! Sint, id saepe! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque enim harum deleniti assumenda accusamus consequuntur nostrum aliquid quod eligendi. Neque vel aperiam accusamus possimus. Tempora libero voluptas repellendus illum fugit?</p>
+        </div>
+    </div>
+    
+    
+    
+
+    <footer>
+        <div id="footercontainer">
+            <div class="colmn">
+                <h5>Legal</h5>
+                <li><a href="#"></a>Terms and conditions</li>
+                <li><a href="#"></a>wholesale</li>
+                <li><a href="#"></a>copyright</li>
+            </div>
+            <div class="colmn">
+                <h5>Contact us:</h5>
+                <p>04123456789</p>
+                <a href="#">instagram</a><br>
+                <a href="#">Facebook</a><br>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="colmn">
+            <h5>Visit us:</h5> <br>
+               <p>Nigellestraat 11 <br>
+                1970 Wezembeek oppem <br>
+                business hours: 10am-8pm</p>
+            </div>
+            <div class="colmn">
+                <h5>Sitemap</h5>
+                <a href="index.html">Home</a><br>
+                <a href="#">About</a><br>
+                <a href="#">Shop</a><br>
+                <a href="#">Profile</a>
+            </div>
+        </div>
+    </footer>
+
+<script src="togglescript.js"></script>
+</body>
+</html>
