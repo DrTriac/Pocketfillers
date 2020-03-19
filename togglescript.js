@@ -11,7 +11,7 @@ function togglefunction_squirrel() {
  }
 
  function togglefunction_penguin() {
-    let x = document.getElementById("subscriptionInfo_penguin");
+    let x = document.getElementById("subscriptionInfo_suricat");
     if (x.style.display === "none")
     {
         x.style.display = "flex";
